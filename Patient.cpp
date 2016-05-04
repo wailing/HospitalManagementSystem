@@ -14,7 +14,7 @@
  * @param string lastname
  * @param string firstname
  */
-void Patient::ModifyPatientDetails(void string lastname, void string firstname) {
+void Patient::ModifyPatientDetails(string lastname, string firstname) {
 
 }
 
@@ -26,6 +26,6 @@ void Patient::ModifyPatientDetails(void string lastname, void string firstname) 
  * @param string email
  * @param int age
  */
-void Patient::registerPatient(void string username, void string pwd, void string name, void string adress, void string email, void int age) {
+void Patient::registerPatient(string username, string pwd, string name, string adress, string email, int age) {
 
 }

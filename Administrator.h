@@ -9,7 +9,10 @@
 #include "string.h"
 
 class Administrator {
-public: 
+public:
+
+    Administrator();
+    ~Administrator();
     
     /**
      * @param string lastname

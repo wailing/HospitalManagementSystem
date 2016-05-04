@@ -8,13 +8,15 @@
 /**
  * Doctor implementation
  */
+Doctor::Doctor() {
 
+}
 
 /**
  * @param string lastname
  * @param string firstname
  */
-void Doctor::ModifyDoctorDetails(void string lastname, void string firstname) {
+void Doctor::ModifyDoctorDetails(string lastname, string firstname) {
 
 }
 
@@ -26,6 +28,6 @@ void Doctor::ModifyDoctorDetails(void string lastname, void string firstname) {
  * @param string email
  * @param int age
  */
-void Doctor::registerDoctor(void string username, void string pwd, void string name, void string adress, void string email, void int age) {
+void Doctor::registerDoctor(string username, string pwd, string name, string adress, string email, int age) {
 
 }

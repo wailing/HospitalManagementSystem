@@ -15,6 +15,6 @@
  * @param string patientname
  * @param string date
  */
-void Scheduling::DisplayPlanning(void string doctorname, void string patientname, void string date) {
+void Scheduling::DisplayPlanning(string doctorname, string patientname, string date) {
 
 }

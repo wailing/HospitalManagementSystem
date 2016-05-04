@@ -6,14 +6,17 @@
 #ifndef _DOCTOR_H
 #define _DOCTOR_H
 
+#include "string.h"
 class Doctor {
 public: 
-    
+
+    Doctor();
+    ~Doctor();
     /**
      * @param string lastname
      * @param string firstname
      */
-    void ModifyDoctorDetails(void string lastname, void string firstname);
+    void ModifyDoctorDetails(std::string lastname, std::string firstname);
     
     /**
      * @param string username
@@ -23,9 +26,9 @@ public:
      * @param string email
      * @param int age
      */
-    void registerDoctor(void string username, void string pwd, void string name, void string adress, void string email, void int age);
+    void registerDoctor(std::string username, std::string pwd, std::string name, std::string address, std::string email, int age);
 private: 
-    string speciality;
+    std::string speciality;
 };
 
 #endif //_DOCTOR_H

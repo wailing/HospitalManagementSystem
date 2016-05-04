@@ -8,7 +8,9 @@
 /**
  * Notification implementation
  */
+Notification() {
 
+}
 
 /**
  * @param string date
@@ -16,6 +18,6 @@
  * @param string patientName
  * @return bool
  */
-bool Notification::SendNotification(void string date, void string doctorName, void string patientName) {
+bool Notification::SendNotification(std::string date, std::string doctorName, std::string patientName) {
     return false;
 }

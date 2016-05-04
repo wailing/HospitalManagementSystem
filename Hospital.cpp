@@ -8,6 +8,9 @@
 /**
  * Hospital implementation
  */
+Hospital::Hospital() {
+
+}
 
 
 void Hospital::registerAdmin() {

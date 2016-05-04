@@ -10,13 +10,15 @@
  * Appointment implementation
  */
 
+Appointment::Appointment() {
 
+}
 /**
  * @param Doctor doctor
  * @param Patient patient
  * @return bool
  */
-bool Appointment::FixAppointment(void Doctor doctor, void Patient patient) {
+bool Appointment::FixAppointment(Doctor doctor, Patient patient) {
     return false;
 }
 

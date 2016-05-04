@@ -5,13 +5,17 @@
 
 #ifndef _HOSPITAL_H
 #define _HOSPITAL_H
+#include "string.h"
 
 class Hospital {
-public: 
+public:
+
+    Hospital();
+    ~Hospital();
     void listPatient;
-    void listDoctor;
-    void listAdmin;
-    void listAppointment;
+    std::Vector listDoctor;
+    std::Vector listAdmin;
+    std::Vector listAppointment;
     
     void registerAdmin();
     
@@ -19,7 +23,7 @@ public:
     
     void registerDoctor();
 private: 
-    string name;
+    std::string name;
 };
 
 #endif //_HOSPITAL_H

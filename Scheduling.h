@@ -8,13 +8,14 @@
 
 class Scheduling {
 public: 
-    
+    Scheduling();
+    ~Scheduling();
     /**
      * @param string doctorname
      * @param string patientname
      * @param string date
      */
-    void DisplayPlanning(void string doctorname, void string patientname, void string date);
+    void DisplayPlanning(std::string doctorname, std::string patientname, std::string date);
 private: 
     string PatientName;
     string DoctorName;

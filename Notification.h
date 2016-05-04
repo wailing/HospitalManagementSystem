@@ -7,14 +7,16 @@
 #define _NOTIFICATION_H
 
 class Notification {
-public: 
+public:
+    Notification();
+    ~Notification();
     
     /**
      * @param string date
      * @param string doctorName
      * @param string patientName
      */
-    bool SendNotification(void string date, void string doctorName, void string patientName);
+    bool SendNotification(string date, string doctorName, string patientName);
 private: 
     string date;
     string doctorName;

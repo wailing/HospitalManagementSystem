@@ -8,7 +8,9 @@
 /**
  * Administrator implementation
  */
+Administrator::Administrator() {
 
+}
 
 /**
  * @param string lastname

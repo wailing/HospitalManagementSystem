@@ -8,12 +8,13 @@
 
 class Patient {
 public: 
-    
+    Patient();
+    ~Patient();
     /**
      * @param string lastname
      * @param string firstname
      */
-    void ModifyPatientDetails(void string lastname, void string firstname);
+    void ModifyPatientDetails(std::string lastname, std::string firstname);
     
     /**
      * @param string username
@@ -23,9 +24,9 @@ public:
      * @param string email
      * @param int age
      */
-    void registerPatient(void string username, void string pwd, void string name, void string adress, void string email, void int age);
+    void registerPatient(std::string username, std::string pwd, std::string name, std::string adress, std::string email, int age);
 private: 
-    string function;
+    std::string function;
 };
 
 #endif //_PATIENT_H
