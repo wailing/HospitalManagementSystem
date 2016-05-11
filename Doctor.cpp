@@ -4,13 +4,10 @@
 
 
 #include "Doctor.h"
+#include <string>
+#include <iostream>
 
-/**
- * Doctor implementation
- */
-Doctor::Doctor() {
-
-}
+using namespace std;
 
 /**
  * @param string lastname

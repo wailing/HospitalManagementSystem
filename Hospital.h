@@ -5,23 +5,30 @@
 
 #ifndef _HOSPITAL_H
 #define _HOSPITAL_H
-#include "string.h"
+#include <string>
+#include "Patient.h"
+#include "Doctor.h"
+#include "Administrator.h"
+#include "Appointment.h"
+#include <vector>
 
 class Hospital {
 public:
 
     Hospital();
     ~Hospital();
-    void listPatient;
-    std::Vector listDoctor;
-    std::Vector listAdmin;
-    std::Vector listAppointment;
+    std::vector<Patient*> listPatient;
+    std::vector<Doctor*> listDoctor;
+    std::vector<Administrator*> listAdmin;
+    std::vector<Appointment*> listAppointment;
     
     void registerAdmin();
-    
-    void registerPatient();
+
+    void registerPatient(std::string username, std::string pwd, std::string name, std::string adress, std::string email, int age, std::string function);
     
     void registerDoctor();
+
+    void displayHospital();
 private: 
     std::string name;
 };

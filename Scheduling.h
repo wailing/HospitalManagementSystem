@@ -6,6 +6,8 @@
 #ifndef _SCHEDULING_H
 #define _SCHEDULING_H
 
+#include <iostream>
+
 class Scheduling {
 public: 
     Scheduling();
@@ -17,9 +19,9 @@ public:
      */
     void DisplayPlanning(std::string doctorname, std::string patientname, std::string date);
 private: 
-    string PatientName;
-    string DoctorName;
-    string date;
+    std::string PatientName;
+    std::string DoctorName;
+    std::string date;
 };
 
 #endif //_SCHEDULING_H

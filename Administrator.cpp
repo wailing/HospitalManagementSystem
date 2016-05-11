@@ -2,21 +2,18 @@
  * Project Untitled
  */
 
+#include <iostream>
+#include <string>
 
+using namespace std;
 #include "Administrator.h"
 
-/**
- * Administrator implementation
- */
-Administrator::Administrator() {
-
-}
 
 /**
  * @param string lastname
  * @param string firstname
  */
-void Administrator::ModifyAdminDetails(void string lastname, void string firstname) {
+void Administrator::modifyAdminDetails(string lastname, string firstname) {
 
 }
 
@@ -28,6 +25,6 @@ void Administrator::ModifyAdminDetails(void string lastname, void string firstna
  * @param string email
  * @param int age
  */
-void Administrator::registerAdministrator(void string username, void string pwd, void string name, void string adress, void string email, void int age) {
+void Administrator::registerAdministrator(string username, string pwd, string name, string adress, string email,  int age) {
 
 }

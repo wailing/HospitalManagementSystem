@@ -2,15 +2,23 @@
  * Project Untitled
  */
 
+class Users;
 
 #ifndef _DOCTOR_H
 #define _DOCTOR_H
 
-#include "string.h"
-class Doctor {
-public: 
+#include <string>
+#include "Users.h"
 
-    Doctor();
+class Doctor: public Users {
+public:
+
+
+    Doctor(const std::string &pseudo, const std::string &name, const std::string &password, const std::string &adress,
+           const std::string &email, int age, const std::string &speciality) : Users(pseudo, name, password, adress,
+                                                                                     email, age),
+                                                                               speciality(speciality) { }
+
     ~Doctor();
     /**
      * @param string lastname

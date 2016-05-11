@@ -5,6 +5,8 @@
 
 #include "Scheduling.h"
 
+using namespace std;
+
 /**
  * Scheduling implementation
  */

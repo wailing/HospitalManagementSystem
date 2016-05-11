@@ -3,14 +3,12 @@
  */
 
 
+#include <string>
 #include "Notification.h"
 
 /**
  * Notification implementation
  */
-Notification() {
-
-}
 
 /**
  * @param string date

@@ -2,16 +2,20 @@
  * Project Untitled
  */
 
+class Users;
 
 #ifndef _ADMINISTRATOR_H
 #define _ADMINISTRATOR_H
 
-#include "string.h"
+#include <string>
+#include "Users.h"
 
-class Administrator {
+class Administrator: public Users {
 public:
 
-    Administrator();
+    Administrator(const std::string &pseudo, const std::string &name, const std::string &password, const std::string &address,
+                  const std::string &email, int age) : Users(pseudo, name, password, address, email, age) { }
+
     ~Administrator();
     
     /**

@@ -5,9 +5,7 @@
 
 #include "Patient.h"
 
-/**
- * Patient implementation
- */
+using namespace std;
 
 
 /**
@@ -26,6 +24,15 @@ void Patient::ModifyPatientDetails(string lastname, string firstname) {
  * @param string email
  * @param int age
  */
-void Patient::registerPatient(string username, string pwd, string name, string adress, string email, int age) {
+void Patient::registerPatient(string username, string pwd, string name, string address, string email, int age, string function) {
 
 }
+void Patient::displayPatientInfo(){
+
+}
+
+
+Patient::~Patient() {
+
+}
+

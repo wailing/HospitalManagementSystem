@@ -6,9 +6,13 @@
 #ifndef _NOTIFICATION_H
 #define _NOTIFICATION_H
 
+using namespace std;
 class Notification {
 public:
-    Notification();
+    Notification(const string &date, const string &doctorName, const string &patientName) : date(date),
+                                                                                            doctorName(doctorName),
+                                                                                            patientName(patientName) { }
+
     ~Notification();
     
     /**
